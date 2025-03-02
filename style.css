@@ -1,0 +1,88 @@
+header {
+    font-family: "Varela round", sans-serif;
+}
+body {
+    background-image: url("v.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 90vh; 
+    font-family: "Varela round", sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+h1 {
+    color: #000000;
+}
+p {
+    color: #f4d1e8;
+}
+#addButton{
+    font-family: "Varela round", sans-serif;
+    border-radius:15px;
+    background-color: #fffed2;
+    border-color: rgb(255, 197, 207);
+    border-width: 8px; 
+    padding: 10px;
+    position: absolute;
+    margin-top:610px;
+    margin-left: 1300px;
+}
+.stage{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+ #dueTimeInput {
+    font-family:"Varela round", sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    border-color: rgb(255, 197, 207);
+    background-color: rgb(252, 228, 232);
+    flex-direction:row;
+    flex-wrap:wrap;
+    position: absolute;
+    margin-top:605px;
+    margin-left: 1000px;
+    border-radius: 15px;
+
+}
+#todoInput {
+    font-family:"Varela round", sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    border-color: rgb(250, 203, 211);
+    background-color: rgb(252, 228, 232);
+    flex-direction:row;
+    position: absolute;
+    margin-top:605px;
+    margin-left: 600px;
+    flex-wrap:wrap;
+    border-radius: 15px;
+}
+marquee {
+    font-size: 16px;
+    top: -60px;
+}
+#audioPlay {
+   display: none;
+}
+#todoList {
+    list-style-type: none;
+    position: absolute;
+    left: 665px;
+    top: 100px; 
+    width: 392px; 
+    overflow-y: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box; 
+    margin-bottom:10px;
+}
+.todo-item {
+    padding: 5px; 
+}

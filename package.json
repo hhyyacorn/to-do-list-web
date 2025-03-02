@@ -1,0 +1,15 @@
+{
+    "name": "web-todo-list",
+    "version": "1",
+    "description": "bakery themed to-do list",
+    "main": "index.html",  
+    "scripts": {
+      "start": "node todo.js"  
+    },
+    "keywords": ["productivity", "bakery"],
+    "author": "Hannah, Grace, Riya",
+    "license": "we dont know",
+    "dependencies": {
+    }
+  }
+  
